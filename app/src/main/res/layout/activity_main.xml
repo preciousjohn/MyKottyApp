@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintVertical_bias="0.542"
+            tools:text="Mobile Development" android:fontFamily="sans-serif" android:textSize="23sp"
+            android:textColor="@android:color/black" android:textStyle="bold" tools:targetApi="jelly_bean"/>
+    <TextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp" app:layout_constraintVertical_bias="0.66"
+            tools:text="Flutter" android:fontFamily="monospace" android:textSize="20sp"
+            android:textColor="@android:color/darker_gray" tools:targetApi="jelly_bean"/>
+    <TextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp" app:layout_constraintVertical_bias="0.602"
+            tools:text="Kotlin" android:fontFamily="monospace" android:textSize="20sp"
+            android:textColor="@android:color/darker_gray" tools:targetApi="jelly_bean"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tracks_and_courses"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.114" android:textSize="30sp" android:fontFamily="sans-serif-medium"
+            android:textStyle="bold" android:textColor="@android:color/black"
+            app:autoSizeTextType="none" android:id="@+id/textView3" app:layout_constraintVertical_bias="0.476"
+            tools:targetApi="jelly_bean"/>
+    <TextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintVertical_bias="0.323"
+            tools:text="Email address: preciousinyang10@gmail.com" android:fontFamily="sans-serif"
+            android:textSize="19sp"
+            android:textColor="@android:color/black" tools:targetApi="jelly_bean"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inyang_precious_johnson"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.143"
+            app:layout_constraintHorizontal_bias="0.271" android:textSize="30sp" android:fontFamily="sans-serif-medium"
+            android:textStyle="bold" android:textColor="@android:color/black"
+            app:autoSizeTextType="none" tools:targetApi="jelly_bean"/>
+    <TextView
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintVertical_bias="0.248"
+            tools:text="Slack username: preshousjohn" android:fontFamily="sans-serif" android:textSize="20sp"
+            android:textColor="@android:color/black" tools:targetApi="jelly_bean"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
